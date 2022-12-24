@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.media.tv.interactive.TvInteractiveAppManager.TvInteractiveAppCallback void onTvInteractiveAppServiceStateChanged(java.lang.String, int, int, int) 1">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.media.tv.interactive.TvInteractiveAppServiceInfo.INTERACTIVE_APP_TYPE_HBBTV, android.media.tv.interactive.TvInteractiveAppServiceInfo.INTERACTIVE_APP_TYPE_ATSC, android.media.tv.interactive.TvInteractiveAppServiceInfo.INTERACTIVE_APP_TYPE_GINGA}" />
+    </annotation>
+  </item>
+  <item name="android.media.tv.interactive.TvInteractiveAppManager.TvInteractiveAppCallback void onTvInteractiveAppServiceStateChanged(java.lang.String, int, int, int) 2">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.media.tv.interactive.TvInteractiveAppManager.SERVICE_STATE_UNREALIZED, android.media.tv.interactive.TvInteractiveAppManager.SERVICE_STATE_PREPARING, android.media.tv.interactive.TvInteractiveAppManager.SERVICE_STATE_READY, android.media.tv.interactive.TvInteractiveAppManager.SERVICE_STATE_ERROR}" />
+      <val name="flag" val="false" />
+    </annotation>
+  </item>
+  <item name="android.media.tv.interactive.TvInteractiveAppManager.TvInteractiveAppCallback void onTvInteractiveAppServiceStateChanged(java.lang.String, int, int, int) 3">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.media.tv.interactive.TvInteractiveAppManager.ERROR_NONE, android.media.tv.interactive.TvInteractiveAppManager.ERROR_UNKNOWN, android.media.tv.interactive.TvInteractiveAppManager.ERROR_NOT_SUPPORTED, android.media.tv.interactive.TvInteractiveAppManager.ERROR_WEAK_SIGNAL, android.media.tv.interactive.TvInteractiveAppManager.ERROR_RESOURCE_UNAVAILABLE, android.media.tv.interactive.TvInteractiveAppManager.ERROR_BLOCKED, androi

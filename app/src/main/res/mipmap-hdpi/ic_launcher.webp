@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="android.appwidget.AppWidgetProviderInfo descriptionRes">
+    <annotation name="androidx.annotation.IdRes"/>
+  </item>
+  <item name="android.appwidget.AppWidgetProviderInfo previewLayout">
+    <annotation name="androidx.annotation.IdRes"/>
+  </item>
+  <item name="android.appwidget.AppWidgetProviderInfo resizeMode">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.appwidget.AppWidgetProviderInfo.RESIZE_HORIZONTAL, android.appwidget.AppWidgetProviderInfo.RESIZE_VERTICAL}" />
+      <val name="flag" val="true" />
+    </annotation>
+  </item>
+  <item name="android.appwidget.AppWidgetProviderInfo widgetCategory">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.appwidget.AppWidgetProviderInfo.WIDGET_CATEGORY_HOME_SCREEN, android.appwidget.AppWidgetProviderInfo.WIDGET_CATEGORY_KEYGUARD, android.appwidget.AppWidgetProviderInfo.WIDGET_CATEGORY_SEARCHBOX}" />
+      <val name="flag" val="true" />
+    </annotation>
+  </item>
+  <item name="android.appwidget.AppWidgetProviderInfo widgetFeatures">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="value" val="{android.appwidget.AppWidgetProviderInfo.WIDGET_FEATURE_RECONFIGURABLE, android.appwidget.AppWidgetProviderInfo.WIDGET_FEATURE_HIDE_FROM_PICKER, android.appwidget.AppWidgetProviderInfo.WID

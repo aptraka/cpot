@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ekspresi Wajah"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/cb_ekspresi_wajah0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Netral, Relaks" />
+        <CheckBox
+            android:id="@+id/cb_ekspresi_wajah1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tegang" />
+        <CheckBox
+            android:id="@+id/cb_ekspresi_wajah2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meringis" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gerakan Tubuh"
+            android:textColor="#000"
+            android:textStyle="bold" />
+
+        <CheckBox android:id="@+id/cb_ekspresi_wajah0"

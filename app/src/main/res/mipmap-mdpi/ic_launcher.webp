@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <item name="com.google.android.material.appbar.AppBarLayout.LayoutParams int getScrollFlags()">
+    <annotation name="androidx.annotation.IntDef">
+      <val name="flag" val="true" />
+      <val name="value" val="{com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_NO_SCROLL, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_SCROLL, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_EXIT_UNTIL_COLLAPSED, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_ENTER_ALWAYS, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_ENTER_ALWAYS_COLLAPSED, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_SNAP, com.google.android.material.appbar.AppBarLayout.LayoutParams.SCROLL_FLAG_SNAP_MARGINS}" />
+    </annotation>
+  </item>
+  <item name="com.google.android.material.appbar.AppBarLayout.LayoutParams voi

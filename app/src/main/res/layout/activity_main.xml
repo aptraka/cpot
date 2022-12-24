@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:padding = "10dp"
+        android:layout_width ="match_parent"
+        android:layout_height ="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text = "Ekspresi Wajah"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/cb_ekspresi_wajah0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Netral, Relaks"/>
+        <CheckBox
+            android:id="@+id/cb_ekspresi_wajah1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tegang"/>
+        <CheckBox
+            android:id="@+id/cb_ekspresi_wajah2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meringis"/>
+
+        <TextView
+            android:text = "Gerakan Tubuh"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/cb_gerakan_tubuh0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Posisi Normal"/>
+        <CheckBox
+            android:id="@+id/cb_gerakan_tubuh1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Perlindungan"/>
+        <CheckBox
+            android:id="@+id/cb_gerakan_tubuh2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gelisah"/>
+
+
+        <TextView
+            android:text = "Mengikuti Ventilator"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/cb_ventilator0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ventilator toleransi terhadap pergerakan"/>
+        <CheckBox
+            android:id="@+id/cb_ventilator1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batuk tapi masih toleransi"/>
+        <CheckBox
+            android:id="@+id/cb_ventilator2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Melawan ventilator"/>
+
+        <TextView
+            android:text = "Ketegangan Otot"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_width = "match_parent"
+            android:layout_height = "wrap_content"/>
+
+        <CheckBox
+            android:id="@+id/cb_ketegangan_otot0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relaks"/>
+        <CheckBox
+            android:id="@+id/cb_ketegangan_otot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tegang, Kaku"/>
+        <CheckBox
+            android:id="@+id/cb_ketegangan_otot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sangat Tegang, Kaku"/>
+
+        <Button
+            android:id ="@+id/btnSubmit"
+            android:text ="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
